@@ -16,6 +16,7 @@ FIXES APPLIED:
 """
 
 import streamlit as st
+st.set_page_config(layout="wide")
 import cv2
 import numpy as np
 import pandas as pd
