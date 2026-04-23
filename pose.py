@@ -10,7 +10,6 @@ import mediapipe as mp
 mp_pose = mp.solutions.pose
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
-import mediapipe.python.solutions.drawing_styles as mp_drawing_styles
 from typing import Optional, Dict, Tuple, NamedTuple
 from config import SystemConfig
 
