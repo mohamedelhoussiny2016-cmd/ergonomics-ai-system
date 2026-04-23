@@ -1,5 +1,5 @@
 opencv-python-headless==4.8.0.76
-mediapipe==0.10.11
+mediapipe==0.10.33
 numpy
 streamlit
 plotly
