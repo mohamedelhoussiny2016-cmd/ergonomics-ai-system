@@ -1,8 +1,8 @@
+streamlit
 opencv-python-headless==4.8.0.76
 mediapipe==0.10.33
 numpy
-streamlit
-plotly
 pandas
+plotly
 reportlab
 Pillow
