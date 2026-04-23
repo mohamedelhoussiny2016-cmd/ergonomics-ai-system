@@ -6,8 +6,10 @@ Shared module used by both RULA and REBA scoring engines.
 
 import cv2
 import numpy as np
-import mediapipe.python.solutions.pose as mp_pose
-import mediapipe.python.solutions.drawing_utils as mp_drawing
+import mediapipe as mp
+mp_pose = mp.solutions.pose
+mp_drawing = mp.solutions.drawing_utils
+mp_drawing_styles = mp.solutions.drawing_styles
 import mediapipe.python.solutions.drawing_styles as mp_drawing_styles
 from typing import Optional, Dict, Tuple, NamedTuple
 from config import SystemConfig
